@@ -21,8 +21,8 @@ def json_to_csv():
     {"id": 2,"name":"yu","age":14}
     {"id": 3,"name":"pig","age":22}
     """
-    input_file = 'data/pd_sample.json'
-    output_file = 'data/pd_sample.csv'
+    input_file = '../data/pd_sample.json'
+    output_file = '../data/pd_sample.csv'
 
     # read
     df = read_json(input_file)

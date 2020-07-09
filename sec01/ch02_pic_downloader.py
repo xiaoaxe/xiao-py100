@@ -19,8 +19,11 @@ def run():
 
 # http://t7.baidu.com/it/u=3616242789,1098670747&fm=79&app=86&f=JPEG?w=900&h=1350
 def download_pic():
-    url = sys.argv[1]
-    filename = 'data/img_{}.png'.format(int(time.time()))
+    if len(sys.argv) > 1:
+        url = sys.argv[1]
+    else:
+        url = 'http://t7.baidu.com/it/u=3616242789,1098670747&fm=79'
+    filename = '../data/img_{}.png'.format(int(time.time()))
     with open(filename, 'wb') as fw:
         resp = requests.get(url)
         fw.write(resp.content)

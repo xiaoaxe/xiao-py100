@@ -56,8 +56,8 @@ def gen_qr_card():
     draw.text((50, 420), house, fill='rgb(0,0,0)', font=font)
 
     # save image
-    image_file = 'data/{}.png'.format(input_name)
-    qr_file = 'data/{}.bmp'.format(idno)
+    image_file = '../data/{}.png'.format(input_name)
+    qr_file = '../data/{}.bmp'.format(idno)
     image.save(image_file)
 
     # save qrcode
