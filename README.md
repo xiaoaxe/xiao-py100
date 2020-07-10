@@ -12,8 +12,9 @@ python practical snippets
 1. 使用requests调用天气api
 1. 使用pytesseract进行ocr识别
 1. 使用turtle绘制一个时钟
-1. 使用scikit-learn构建简单神经网络
+1. 使用opencv素描图片
 1. 使用jieba分词统计
+1. 使用scikit-learn构建简单神经网络
 1. 使用gensim主题识别
 1. 使用word2vec分词
 1. 实现一个代理
